@@ -1,0 +1,38 @@
+//-------------------------------------------------------------------------------------------------
+// Project Cormorant - GB / CGB Emulator
+// jcds (jdibenes@outlook.com)
+// 2011
+//-------------------------------------------------------------------------------------------------
+
+#include <Windows.h>
+#include "resource.h"
+
+MAIN_ICON ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION 0,03,000,0
+PRODUCTVERSION 0,03,000,0
+FILEFLAGSMASK 0
+FILEFLAGS 0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "jcds"
+            VALUE "FileDescription",  "Emulador de Game Boy Color"
+            VALUE "FileVersion",      "0.4"
+            VALUE "InternalName",     "Cormorant"
+            VALUE "OriginalFilename", "cormorant.exe"
+            VALUE "ProductName",      "Cormorant"
+            VALUE "ProductVersion",   "0.4"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
