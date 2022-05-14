@@ -13,3 +13,15 @@ Game Boy Sound Operation.txt
 z80 Heaven: http://z80-heaven.wikidot.com/
 
 Z80 Family CPU User Manual
+
+## Build Instructions (Visual Studio)
+
+Set Character Set to Not Set.
+
+Disable SDL checks.
+
+Include the following libraries: d3d9.lib, dsound.lib, dinput8.lib, dxguid.lib.
+
+Set SubSystem as Windows.
+
+Build.
