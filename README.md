@@ -14,6 +14,10 @@ z80 Heaven: http://z80-heaven.wikidot.com/
 
 Z80 Family CPU User Manual
 
+https://clrhome.org/table/
+
+http://www.z80.info/index.htm
+
 ## Build Instructions (Visual Studio)
 
 Set Character Set to Not Set.
